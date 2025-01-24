@@ -94,9 +94,9 @@ def rmv_flight_airline(id):
             con.close()
 
 if __name__ == "__main__":
-    #db_create_flight('SW101', '2025-01-25 07:30:00', '2025-01-25 09:45:00', 'Dallas/Fort Worth International Airport', 'Denver International Airport')
-    #db_create_flight('BA202', '2025-01-15 11:00:00', '2025-01-15 14:15:00', 'London Heathrow Airport', 'New York JFK International Airport')
-    #db_create_flight('AF303', '2025-01-18 16:20:00', '2025-01-18 19:45:00', 'Charles de Gaulle Airport', 'Los Angeles International Airport')
+    db_create_flight('SW101', '2025-01-25 07:30:00', '2025-01-25 09:45:00', 'Dallas/Fort Worth International Airport', 'Denver International Airport')
+    db_create_flight('BA202', '2025-01-15 11:00:00', '2025-01-15 14:15:00', 'London Heathrow Airport', 'New York JFK International Airport')
+    db_create_flight('AF303', '2025-01-18 16:20:00', '2025-01-18 19:45:00', 'Charles de Gaulle Airport', 'Los Angeles International Airport')
     order_by_deptime()
     flights_by_airline()
     rmv_flight_airline(6)
